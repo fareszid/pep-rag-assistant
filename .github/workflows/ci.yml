@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -e ".[app,dev]"
+      - name: Lint
+        run: |
+          ruff check src tests app
+          ruff format --check src tests app
+      - name: Tests (offline, fake embedder and fake Claude client)
+        run: pytest -v
+      - name: Ingest the real PEP corpus
+        run: pepbot ingest

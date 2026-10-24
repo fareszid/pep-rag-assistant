@@ -1,0 +1,91 @@
+{
+  "questions": 80,
+  "chunks": 16752,
+  "peps": 744,
+  "retrieval": [
+    {
+      "config": "BM25, no headers",
+      "hit@1": 0.6,
+      "hit@3": 0.775,
+      "hit@5": 0.825,
+      "hit@10": 0.9,
+      "mrr@10": 0.6998065476190476,
+      "latency_ms_p50": 0.7590205023007002
+    },
+    {
+      "config": "Dense, no headers",
+      "hit@1": 0.625,
+      "hit@3": 0.875,
+      "hit@5": 0.925,
+      "hit@10": 0.95,
+      "mrr@10": 0.7545833333333333,
+      "latency_ms_p50": 3.493062500638189
+    },
+    {
+      "config": "BM25",
+      "hit@1": 0.6375,
+      "hit@3": 0.7875,
+      "hit@5": 0.8125,
+      "hit@10": 0.9125,
+      "mrr@10": 0.7223958333333333,
+      "latency_ms_p50": 0.7750625009066425
+    },
+    {
+      "config": "Dense",
+      "hit@1": 0.75,
+      "hit@3": 0.8625,
+      "hit@5": 0.925,
+      "hit@10": 0.975,
+      "mrr@10": 0.8237996031746032,
+      "latency_ms_p50": 3.448562500125263
+    },
+    {
+      "config": "Hybrid (RRF)",
+      "hit@1": 0.7375,
+      "hit@3": 0.8875,
+      "hit@5": 0.9375,
+      "hit@10": 0.95,
+      "mrr@10": 0.8178273809523808,
+      "latency_ms_p50": 4.0417079981125426
+    },
+    {
+      "config": "Hybrid + rerank",
+      "hit@1": 0.7125,
+      "hit@3": 0.9375,
+      "hit@5": 0.95,
+      "hit@10": 0.9875,
+      "mrr@10": 0.8205555555555556,
+      "latency_ms_p50": 846.930062998581
+    }
+  ],
+  "hit@5_by_category_hybrid_rerank": {
+    "packaging": {
+      "mean": 0.778,
+      "size": 9
+    },
+    "process": {
+      "mean": 1.0,
+      "size": 7
+    },
+    "runtime": {
+      "mean": 1.0,
+      "size": 10
+    },
+    "stdlib": {
+      "mean": 1.0,
+      "size": 11
+    },
+    "style": {
+      "mean": 1.0,
+      "size": 2
+    },
+    "syntax": {
+      "mean": 1.0,
+      "size": 23
+    },
+    "typing": {
+      "mean": 0.889,
+      "size": 18
+    }
+  }
+}

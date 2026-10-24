@@ -1,0 +1,80 @@
+{"question": "Which proposal added the := operator that assigns a value inside an expression?", "gold": [572], "category": "syntax"}
+{"question": "How many spaces should I use per indentation level in Python code?", "gold": [8], "category": "style"}
+{"question": "What are the aphorisms such as 'Beautiful is better than ugly' and 'Explicit is better than implicit'?", "gold": [20], "category": "process"}
+{"question": "How do formatted string literals with an f prefix evaluate expressions inside braces?", "gold": [498, 701], "category": "syntax"}
+{"question": "Which PEP introduced native coroutines declared with async def and suspended with await?", "gold": [492], "category": "syntax"}
+{"question": "How does the match statement destructure objects with class patterns?", "gold": [634, 635, 636], "category": "syntax"}
+{"question": "What was the original proposal that standardised type hints and the typing module?", "gold": [484], "category": "typing"}
+{"question": "How can I annotate the type of a module-level or class-level variable without assigning it?", "gold": [526], "category": "typing"}
+{"question": "Which decorator automatically generates __init__ and __repr__ for classes that mainly store data?", "gold": [557], "category": "stdlib"}
+{"question": "What does from __future__ import annotations change about when annotations are evaluated?", "gold": [563], "category": "typing"}
+{"question": "Can I merge two dictionaries with the | operator?", "gold": [584], "category": "syntax"}
+{"question": "Are there string methods to strip a known prefix or suffix from a string?", "gold": [616], "category": "stdlib"}
+{"question": "What does a slash in a function's parameter list mean?", "gold": [570], "category": "syntax"}
+{"question": "How do I declare arguments that can only be passed by keyword after *args?", "gold": [3102], "category": "syntax"}
+{"question": "What conventions should a one-line docstring follow?", "gold": [257], "category": "style"}
+{"question": "Where did the @decorator syntax for functions and methods come from?", "gold": [318], "category": "syntax"}
+{"question": "How do __enter__ and __exit__ work together in the with statement?", "gold": [343], "category": "syntax"}
+{"question": "Which proposal introduced generator functions using the yield keyword?", "gold": [255], "category": "syntax"}
+{"question": "How can a generator delegate part of its work to a subgenerator?", "gold": [380], "category": "syntax"}
+{"question": "Can I use multiple * and ** unpackings in one function call or in list and dict displays?", "gold": [448], "category": "syntax"}
+{"question": "Why was @ added as a binary operator for matrix multiplication?", "gold": [465], "category": "syntax"}
+{"question": "Can I write 1_000_000 with underscores in a number literal?", "gold": [515], "category": "syntax"}
+{"question": "How do generators receive values through the send() method?", "gold": [342], "category": "syntax"}
+{"question": "How do I raise and handle several unrelated exceptions at once with except*?", "gold": [654], "category": "syntax"}
+{"question": "What is the plan for a CPython build without the global interpreter lock?", "gold": [703, 779], "category": "runtime"}
+{"question": "How do I annotate a method that returns an instance of its own class?", "gold": [673], "category": "typing"}
+{"question": "How can a generic type accept an arbitrary number of type parameters, like a tuple of shapes?", "gold": [646], "category": "typing"}
+{"question": "Can I write int | str instead of Union[int, str] in annotations?", "gold": [604], "category": "typing"}
+{"question": "What is the new syntax for declaring generic classes and functions with type parameters in brackets?", "gold": [695], "category": "typing"}
+{"question": "How do I type a dictionary that has a fixed set of string keys with specific value types?", "gold": [589, 655], "category": "typing"}
+{"question": "How do I say that a function argument may only be one of a few specific string values?", "gold": [586], "category": "typing"}
+{"question": "How does static duck typing work through structural subtyping with Protocol classes?", "gold": [544], "category": "typing"}
+{"question": "How can I mark a name or method so type checkers forbid reassigning or overriding it?", "gold": [591], "category": "typing"}
+{"question": "Why did CPython replace its LL(1) parser with a PEG-based parser?", "gold": [617], "category": "runtime"}
+{"question": "Why does Python now have a new feature release every year?", "gold": [602], "category": "process"}
+{"question": "Which standard library module provides IANA time zone support?", "gold": [615], "category": "stdlib"}
+{"question": "What protocol lets os.open accept objects that represent filesystem paths?", "gold": [519], "category": "stdlib"}
+{"question": "Which proposal added object-oriented filesystem paths to the standard library?", "gold": [428], "category": "stdlib"}
+{"question": "How were enumerations added to the standard library?", "gold": [435], "category": "stdlib"}
+{"question": "Which module provides mean, median and standard deviation functions?", "gold": [450], "category": "stdlib"}
+{"question": "How do lightweight virtual environments with their own site directories work?", "gold": [405], "category": "packaging"}
+{"question": "What is the structure of a wheel binary distribution file?", "gold": [427, 491], "category": "packaging"}
+{"question": "How does a project declare the build tools it needs in pyproject.toml?", "gold": [518], "category": "packaging"}
+{"question": "What hooks must a build backend implement so that pip can build a project?", "gold": [517], "category": "packaging"}
+{"question": "How do I write project metadata like name, version and dependencies in pyproject.toml?", "gold": [621], "category": "packaging"}
+{"question": "What do version specifiers like ~=1.4.5 and !=2.0 mean for Python packages?", "gold": [440], "category": "packaging"}
+{"question": "How did pip start being bundled with Python installations?", "gold": [453], "category": "packaging"}
+{"question": "Is there a built-in function that drops me into the debugger?", "gold": [553], "category": "stdlib"}
+{"question": "How can asyncio code keep per-task state similar to thread-local storage?", "gold": [567, 550], "category": "stdlib"}
+{"question": "Can a module define __getattr__ to lazily provide attributes or deprecation warnings?", "gold": [562], "category": "runtime"}
+{"question": "Is the order of keyword arguments in **kwargs guaranteed to be preserved?", "gold": [468], "category": "runtime"}
+{"question": "Why was the u'' prefix for string literals allowed again in Python 3.3?", "gold": [414], "category": "syntax"}
+{"question": "How does CPython store strings compactly using 1, 2 or 4 bytes per character?", "gold": [393], "category": "runtime"}
+{"question": "What is the difference between __cause__ and __context__ when exceptions are chained?", "gold": [3134], "category": "runtime"}
+{"question": "Why did print become a function in Python 3?", "gold": [3105], "category": "syntax"}
+{"question": "Why does 1/2 return 0.5 and what is the // operator for?", "gold": [238], "category": "syntax"}
+{"question": "Which proposal introduced the conditional expression x if condition else y?", "gold": [308], "category": "syntax"}
+{"question": "How do explicit relative imports with leading dots work?", "gold": [328], "category": "syntax"}
+{"question": "How do abstract base classes and the abc module support isinstance checks?", "gold": [3119], "category": "runtime"}
+{"question": "Why was distutils deprecated and removed from the standard library?", "gold": [632], "category": "packaging"}
+{"question": "Which obsolete standard library modules were removed as dead batteries?", "gold": [594], "category": "stdlib"}
+{"question": "How can objects be made immortal so their reference count never changes?", "gold": [683], "category": "runtime"}
+{"question": "How can each subinterpreter have its own GIL?", "gold": [684, 734], "category": "runtime"}
+{"question": "Will there ever be a Python 2.8 release?", "gold": [404], "category": "process"}
+{"question": "How is the Python steering council elected and what powers does it have?", "gold": [13], "category": "process"}
+{"question": "Which module can parse TOML configuration files in the standard library?", "gold": [680], "category": "stdlib"}
+{"question": "Can I use list[int] instead of typing.List[int] in annotations?", "gold": [585], "category": "typing"}
+{"question": "How do I type a decorator that preserves the parameters of the function it wraps?", "gold": [612], "category": "typing"}
+{"question": "How can a user-defined function narrow the type of its argument, like isinstance does?", "gold": [647, 742], "category": "typing"}
+{"question": "How can a type checker help prevent SQL injection by only accepting literal strings?", "gold": [675], "category": "typing"}
+{"question": "Is there a decorator to tell type checkers that a method overrides a base class method?", "gold": [698], "category": "typing"}
+{"question": "How are annotations evaluated lazily using descriptors and __annotate__ functions?", "gold": [649, 749], "category": "typing"}
+{"question": "What are template strings with a t prefix and how are they different from f-strings?", "gold": [750], "category": "syntax"}
+{"question": "What is the purpose of the PEP process and what types of PEPs exist?", "gold": [1], "category": "process"}
+{"question": "How did dictionary comprehensions get added to the language?", "gold": [274], "category": "syntax"}
+{"question": "What is the scheduled end-of-life date for Python 2.7?", "gold": [373], "category": "process"}
+{"question": "How does the Python Packaging Authority handle the simple repository API for package indexes?", "gold": [503, 691], "category": "packaging"}
+{"question": "Why are function annotations allowed on parameters and return values without any fixed meaning?", "gold": [3107], "category": "typing"}
+{"question": "What is the Python 3.13 release schedule?", "gold": [719], "category": "process"}
+{"question": "How can the interpreter be told to not write .pyc files and where do cached bytecode files live?", "gold": [3147], "category": "runtime"}
