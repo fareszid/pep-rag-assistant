@@ -1,6 +1,6 @@
 # Ask the PEPs
 
-[![CI](https://github.com/Fares2311/pep-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/Fares2311/pep-rag-assistant/actions/workflows/ci.yml)
+[![CI](https://github.com/fareszid/pep-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/fareszid/pep-rag-assistant/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
@@ -121,7 +121,7 @@ the quoted text, and the retrieved passages under each answer.
 ## Run it
 
 ```bash
-git clone https://github.com/Fares2311/pep-rag-assistant.git
+git clone https://github.com/fareszid/pep-rag-assistant.git
 cd pep-rag-assistant
 python -m venv .venv && source .venv/bin/activate
 make install    # pip install -e ".[app,dev]"
